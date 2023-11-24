@@ -1,0 +1,93 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 10vh;
+    background: var(--color-bg);
+    color: var(--color-txt);
+}
+
+body[data-theme="t-light"] {
+    --color-bg: linear-gradient(90deg, #00dbde 0%, #fc00ff);
+    --color-bg2: #fafafa;
+    --color-txt: #000000;
+}
+
+body[data-theme="t-dark"] {
+    --color-bg: linear-gradient(90deg, #8b8b8b 0%, #242424);
+    --color-bg2: #000000;
+    --color-txt: #ffffff;
+}
+
+.div-btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+    color: var(--color-txt);
+}
+
+.btn-theme{
+    background-color: var(--color-bg2);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    max-width: 100%;
+    color: var(--color-txt);
+}
+
+.phon{color: var(--color-txt);}
+.end{color: var(--color-txt);}
+.git{color: var(--color-txt);}
+.uni{color: var(--color-txt);}
+
+.div1{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.personal-info{
+    text-align: center;
+    background-color: var(--color-bg2);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    padding: 5px;
+}
+
+.general-info{
+    text-align: center;
+    background-color: var(--color-bg2);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#user{
+    margin-left: -10px;
+}
+
+h2{
+    margin: 10px;
+}
+li{
+    margin-bottom: 10px;
+}
+
+.foto{
+    border-radius: 100%;
+    max-width: 200px;
+    border: 1px solid black;
+}
